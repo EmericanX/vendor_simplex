@@ -5,7 +5,7 @@ $(call inherit-product, vendor/simplex/products/common.mk)
 
 # Device Init file
 PRODUCT_COPY_FILES += \
-    vendor/simplex/proprietary/common/etc/init.local.rc:root/init.local.rc
+    vendor/simplex/proprietary/common/etc/init.local.rc:root/init.cm.rc
 
 # CDMA APN list
 PRODUCT_COPY_FILES += \
