@@ -41,6 +41,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/simplex/proprietary/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
-#    vendor/simplex/proprietary/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
     vendor/simplex/proprietary/common/etc/init.d/91zipalign:system/etc/init.d/91zipalign \
-    vendor/simplex/proprietary/common/etc/init.d/99HatedTh3ory:system/etc/init.d/91zipalign
+    vendor/simplex/proprietary/common/etc/init.d/99HatedTh3ory:system/etc/init.d/99HatedTh3ory
